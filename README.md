@@ -1,6 +1,6 @@
 # Robot Arm Control
 
-On Raspberr Pi 3 
+On Raspberr Pi 3 w/Voice HAT board
 ### Installing
 ```
 npm install
