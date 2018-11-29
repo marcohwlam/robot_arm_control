@@ -1,0 +1,15 @@
+{
+  "name": "Raspberry-Pi-Robotic-Arm-Ctl",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "bootstrap": "^3.3.7",
+    "express": "~4.13.4",
+    "rpio": "^1.2.0",
+    "serve-favicon": "~2.3.0"
+  }
+}

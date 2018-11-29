@@ -1,0 +1,45 @@
+<html>
+  <body>
+  <div>
+    <input id="slider1" type="text" data-slider-min="500" data-slider-max="2500" data-slider-step="1" data-slider-value="1500"/>
+    <span id="ex6CurrentSliderValLabel">Current Slider Value: <span id="slider1Val">1500</span></span>
+  </div>
+  <div>
+    <input id="slider2" type="text" data-slider-min="500" data-slider-max="2500" data-slider-step="1" data-slider-value="1500"/>
+    <span id="ex6CurrentSliderValLabe2">Current Slider Value: <span id="slider2Val">1500</span></span>
+  </div>
+  <div>
+    <input id="slider3" type="text" data-slider-min="500" data-slider-max="2500" data-slider-step="1" data-slider-value="1500"/>
+    <span id="ex6CurrentSliderValLabe3">Current Slider Value: <span id="slider3Val">1500</span></span>
+  </div>
+  <div>
+    <input id="slider4" type="text" data-slider-min="500" data-slider-max="2500" data-slider-step="1" data-slider-value="1500"/>
+    <span id="ex6CurrentSliderValLabe4">Current Slider Value: <span id="slider4Val">1500</span></span>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"></script>
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.3.1/bootstrap-slider.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.3.1/css/bootstrap-slider.css">
+  <script src="../public/client.js"></script>
+  <script>
+    // With JQuery
+    $("#slider1").slider();
+    $("#slider2").slider();
+    $("#slider3").slider();
+    $("#slider4").slider();
+    $("#slider1").on("slide", function(slideEvt) {
+      $("#slider1Val").text(slideEvt.value);
+    });
+    $("#slider2").on("slide", function(slideEvt) {
+      $("#slider2Val").text(slideEvt.value);
+    });
+    $("#slider3").on("slide", function(slideEvt) {
+      $("#slider3Val").text(slideEvt.value);
+    });
+    $("#slider4").on("slide", function(slideEvt) {
+      $("#slider4Val").text(slideEvt.value);
+    });
+  </script>
+  </body>
+</html>
