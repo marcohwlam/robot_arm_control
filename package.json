@@ -9,7 +9,7 @@
     "body-parser": "~1.15.1",
     "bootstrap": "^3.3.7",
     "express": "~4.13.4",
-    "rpio": "^1.2.0",
+    "pipio": "^1.2.0",
     "serve-favicon": "~2.3.0"
   }
 }
