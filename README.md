@@ -1,4 +1,4 @@
-#robot_arm_control
+# Robot Arm Control
 
 On Raspberr Pi 3 
 ### Installing
